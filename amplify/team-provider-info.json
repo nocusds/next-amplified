@@ -17,6 +17,12 @@
       },
       "api": {
         "nextamplified": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3gsqxw2sd0h21",
+          "type": "cicd"
+        }
       }
     }
   }
