@@ -33,7 +33,7 @@ async function handleCreatePost(event) {
   const form = new FormData(event.target);
 
   try {
-    const { data } = await API.graphql({
+    const { data } : any = await API.graphql({
       authMode: 'AMAZON_COGNITO_USER_POOLS',
       query: createPost,
       variables: {
